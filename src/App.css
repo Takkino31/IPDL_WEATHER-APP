@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+
+
+body {
+  color: #fff;
+  overflow-x: hidden;
+  height: 100%;
+  background-color: #CFD8DC;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card {
+  /* background-image: url("https://i.imgur.com/dpqZJV5.jpg"); */
+  /* background-size: cover; */
+  width: 600px;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 4px #9E9E9E;
+  margin-top: 50px;
+  margin-bottom: 50px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.time-font {
+  margin-left: 5px;
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sm-font {
+  font-size: 18px;
+}
+
+.med-font {
+  font-size: 28px;
+}
+
+.large-font {
+  /* text-align: end; */
+  margin-right: 5px;
+  font-size: 40px;
+}
+
+.text-right{
+  text-align: end;
+}
+
+
+.card-cold {
+  background-image: url("https://i.imgur.com/dpqZJV5.jpg");
+  background-size: cover;
+}
+
+.card-warm {
+  background-image: url("./images/warm.jpeg");
+  background-size: cover;
+  color: black;
+}
+
+.card-hot {
+  background-image: url("https://imgur.com/eOPUSEt");
+  background-size: cover;
+  color: black;
 }
